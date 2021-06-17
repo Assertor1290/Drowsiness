@@ -1,2 +1,2 @@
-# Streamlit-to-heroku-tutorial
+# Streamlit-to-Heroku-tutorial
 # Drowsiness
