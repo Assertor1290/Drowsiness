@@ -8,3 +8,4 @@ scipy==1.5.3
 imutils==0.5.3
 pyserial==3.4
 scikit-learn==0.23.2
+opencv==4.5.0
