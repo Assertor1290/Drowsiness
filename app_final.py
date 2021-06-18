@@ -54,7 +54,7 @@ ap.add_argument("-a", "--alarm", type=str, default="alarm.wav", help="path alarm
 args = ap.parse_known_args()[0]
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("../../68 face landmarks.dat")
+predictor = dlib.shape_predictor("68 face landmarks.dat")
 
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
